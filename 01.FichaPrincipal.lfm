@@ -235,7 +235,7 @@ end;
 			 </image>
 
  <!-- AREA DE SCRIPT  -->
- 
+ --scripts
 	<script>
 
 	local function mochila2func();
