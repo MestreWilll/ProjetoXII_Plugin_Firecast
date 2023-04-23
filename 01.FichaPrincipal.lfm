@@ -54,7 +54,7 @@ end;
 			<button left="0" top="85" width="85" text="Atualizar" fontStyle="bold" fontColor="yellow" onClick="gui.openInBrowser('https://github.com/MestreWilll/ProjetoXII_Plugin_Firecast/blob/master/output/ProjetoXII_Plugin_Firecast.rpk?raw=true')" />
 		
 		<rectangle left="0" top="21" width="102" height="22" color="white" strokeColor="black" strokeSize="1"/>
-		<image left="0" top="22" width="100" height="20" style="autoFit" src="https://dl.dropboxusercontent.com/s/d9wthpq1o0bmink/suaversao%203.png?dl=0"/>
+		<image left="0" top="22" width="100" height="20" style="autoFit" src="https://dl.dropboxusercontent.com/s/oljhvveqhcswgy1/suaversao%204.png?dl=0"/>
 		
 		<rectangle left="0" top="63" width="102" height="22" color="white" strokeColor="black" strokeSize="1"/>
 		<image name="imgVersaoAtual" src="/imagens/versaoCopia.png" left="0" top="64" width="100" height="20" style="autoFit"/>	
@@ -62,14 +62,9 @@ end;
 		
 		<image src="/imagens/FontSuaVersao.png" left="-48" top="2" width="200" height="50"/>
 		<image src="/imagens/FontVersaoAtual.png" left="-33" top="46" width="181.50" height="50"/>
-		
+	
 		</layout>
-		
 
-
-
-		
-		
 	     <image field="imagemDoPersonagem2" editable="true" style="autoFit" 
              top="239" left="430"  width="145" height="144"/>
 <!-- Area para PERFIL  TUDO COMPLETO AQUI-->

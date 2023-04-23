@@ -130,7 +130,7 @@ local function constructNew_frmFicha1_svg()
     obj.image2:setWidth(100);
     obj.image2:setHeight(20);
     obj.image2:setStyle("autoFit");
-    obj.image2:setSRC("https://dl.dropboxusercontent.com/s/d9wthpq1o0bmink/suaversao%203.png?dl=0");
+    obj.image2:setSRC("https://dl.dropboxusercontent.com/s/oljhvveqhcswgy1/suaversao%204.png?dl=0");
     obj.image2:setName("image2");
 
     obj.rectangle2 = GUI.fromHandle(_obj_newObject("rectangle"));
@@ -1674,7 +1674,7 @@ local function constructNew_frmFicha1_svg()
 
     obj._e_event3 = obj.button2:addEventListener("onClick",
         function (_)
-            gui.openInBrowser('https://dl.dropboxusercontent.com/s/kv0ohcmcmxqrdrq/ProjetoXII.rpk')
+            gui.openInBrowser('https://github.com/MestreWilll/ProjetoXII_Plugin_Firecast/blob/master/output/ProjetoXII_Plugin_Firecast.rpk?raw=true')
         end, obj);
 
     obj._e_event4 = obj.button3:addEventListener("onClick",
