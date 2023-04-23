@@ -1,6 +1,5 @@
 <group>
- <layout name="InventarioM1" align="client" visible="true">
-    
+ <layout name="InventarioM1" width="700" height="900" visible="true">
  <!-- Imagem base aqui -->
  -- aqui fica a imagem de fundo
  <image src="/imagens/Inventario.png" left="0" top="0" width="700" height="900"/>
@@ -200,7 +199,7 @@
  <!-- POPUPS AQUI  -->
 ///////////////////// ----------- AQUI COMEÇA 
 									
-      <popup name="popMeuPopup1" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}" >
+      <popup name="popMeuPopup1" width="400" height="533" backOpacity="0.5" margins="{bottom=400}" >
 	  	  <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
 
       <button onclick="RolarItem1()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar"  />	  
@@ -221,7 +220,7 @@
 	     </image>  	   
 	  </popup>
   
-      <popup name="popMeuPopup2" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}" > 
+      <popup name="popMeuPopup2" width="400" height="533" backOpacity="0.5" margins="{bottom=400}" > 
 	  	  <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
      <button onclick="RolarItem2();" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar" />
 
@@ -242,7 +241,7 @@
 	     </image>  
 	  </popup>  
 	  
-      <popup name="popMeuPopup3" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}">
+      <popup name="popMeuPopup3" width="400" height="533" backOpacity="0.5" margins="{bottom=400}">
 	  	  <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
      <button onclick="RolarItem3()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar" />
 
@@ -262,7 +261,7 @@
 	     </image>  
 	  </popup> 
 	  
-      <popup name="popMeuPopup4" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}">
+      <popup name="popMeuPopup4" width="400" height="533" backOpacity="0.5" margins="{bottom=400}">
 	  	  <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
 			      <button onclick="RolarItem4()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar" />
 
@@ -285,7 +284,7 @@
 	     </image> 
 	  </popup> 	  
 
-      <popup name="popMeuPopup5" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}">
+      <popup name="popMeuPopup5" width="400" height="533" backOpacity="0.5" margins="{bottom=400}">
 	  	  <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
 			      <button onclick="RolarItem5()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar" />
 
@@ -307,7 +306,7 @@
 	     </image> 
 	  </popup> 	
 
-      <popup name="popMeuPopup6" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}">
+      <popup name="popMeuPopup6" width="400" height="533" backOpacity="0.5" margins="{bottom=400}">
 	  	  <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
       <button onclick="RolarItem6()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar" />
 
@@ -328,7 +327,7 @@
 	     </image> 	   
 	  </popup> 	
 
-      <popup name="popMeuPopup7" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}">
+      <popup name="popMeuPopup7" width="400" height="533" backOpacity="0.5" margins="{bottom=400}">
 	  	  <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
       <button onclick="RolarItem7()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar" />
 
@@ -349,7 +348,7 @@
 	     </image> 
 	  </popup> 	
 
-      <popup name="popMeuPopup8" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}">
+      <popup name="popMeuPopup8" width="400" height="533" backOpacity="0.5" margins="{bottom=400}">
 	  	  <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
 			      <button onclick="RolarItem8()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar" />
 
@@ -585,7 +584,7 @@
         </script>  
  
       <!-- <import file="InventarioM2.xml"/> -->
-       <!-- <import file="InventarioM2.xml"/> -->   	
+       <!-- <import file="InventarioM2.xml"/> -->   
 	   </layout>
 	   
 </group>

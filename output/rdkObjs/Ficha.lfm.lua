@@ -1690,7 +1690,8 @@ local function constructNew_frmFicha()
     obj.InventarioM1 = GUI.fromHandle(_obj_newObject("layout"));
     obj.InventarioM1:setParent(obj.scrollBox2);
     obj.InventarioM1:setName("InventarioM1");
-    obj.InventarioM1:setAlign("client");
+    obj.InventarioM1:setWidth(700);
+    obj.InventarioM1:setHeight(900);
     obj.InventarioM1:setVisible(true);
 
     obj.image36 = GUI.fromHandle(_obj_newObject("image"));
@@ -1893,7 +1894,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup1:setWidth(400);
     obj.popMeuPopup1:setHeight(533);
     obj.popMeuPopup1:setBackOpacity(0.5);
-    obj.popMeuPopup1:setAlign("left");
     obj.popMeuPopup1:setMargins({bottom=400});
 
     obj.image45 = GUI.fromHandle(_obj_newObject("image"));
@@ -1986,7 +1986,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup2:setWidth(400);
     obj.popMeuPopup2:setHeight(533);
     obj.popMeuPopup2:setBackOpacity(0.5);
-    obj.popMeuPopup2:setAlign("left");
     obj.popMeuPopup2:setMargins({bottom=400});
 
     obj.image47 = GUI.fromHandle(_obj_newObject("image"));
@@ -2079,7 +2078,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup3:setWidth(400);
     obj.popMeuPopup3:setHeight(533);
     obj.popMeuPopup3:setBackOpacity(0.5);
-    obj.popMeuPopup3:setAlign("left");
     obj.popMeuPopup3:setMargins({bottom=400});
 
     obj.image49 = GUI.fromHandle(_obj_newObject("image"));
@@ -2172,7 +2170,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup4:setWidth(400);
     obj.popMeuPopup4:setHeight(533);
     obj.popMeuPopup4:setBackOpacity(0.5);
-    obj.popMeuPopup4:setAlign("left");
     obj.popMeuPopup4:setMargins({bottom=400});
 
     obj.image51 = GUI.fromHandle(_obj_newObject("image"));
@@ -2274,7 +2271,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup5:setWidth(400);
     obj.popMeuPopup5:setHeight(533);
     obj.popMeuPopup5:setBackOpacity(0.5);
-    obj.popMeuPopup5:setAlign("left");
     obj.popMeuPopup5:setMargins({bottom=400});
 
     obj.image53 = GUI.fromHandle(_obj_newObject("image"));
@@ -2367,7 +2363,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup6:setWidth(400);
     obj.popMeuPopup6:setHeight(533);
     obj.popMeuPopup6:setBackOpacity(0.5);
-    obj.popMeuPopup6:setAlign("left");
     obj.popMeuPopup6:setMargins({bottom=400});
 
     obj.image55 = GUI.fromHandle(_obj_newObject("image"));
@@ -2460,7 +2455,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup7:setWidth(400);
     obj.popMeuPopup7:setHeight(533);
     obj.popMeuPopup7:setBackOpacity(0.5);
-    obj.popMeuPopup7:setAlign("left");
     obj.popMeuPopup7:setMargins({bottom=400});
 
     obj.image57 = GUI.fromHandle(_obj_newObject("image"));
@@ -2553,7 +2547,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup8:setWidth(400);
     obj.popMeuPopup8:setHeight(533);
     obj.popMeuPopup8:setBackOpacity(0.5);
-    obj.popMeuPopup8:setAlign("left");
     obj.popMeuPopup8:setMargins({bottom=400});
 
     obj.image59 = GUI.fromHandle(_obj_newObject("image"));
@@ -2900,7 +2893,8 @@ local function constructNew_frmFicha()
     obj.InventarioM2 = GUI.fromHandle(_obj_newObject("layout"));
     obj.InventarioM2:setParent(obj.scrollBox2);
     obj.InventarioM2:setName("InventarioM2");
-    obj.InventarioM2:setAlign("client");
+    obj.InventarioM2:setWidth(700);
+    obj.InventarioM2:setHeight(900);
     obj.InventarioM2:setVisible(false);
 
     obj.image61 = GUI.fromHandle(_obj_newObject("image"));
@@ -3103,7 +3097,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup9:setWidth(400);
     obj.popMeuPopup9:setHeight(533);
     obj.popMeuPopup9:setBackOpacity(0.5);
-    obj.popMeuPopup9:setAlign("left");
     obj.popMeuPopup9:setMargins({bottom=400});
 
     obj.image78 = GUI.fromHandle(_obj_newObject("image"));
@@ -3196,7 +3189,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup10:setWidth(400);
     obj.popMeuPopup10:setHeight(533);
     obj.popMeuPopup10:setBackOpacity(0.5);
-    obj.popMeuPopup10:setAlign("left");
     obj.popMeuPopup10:setMargins({bottom=400});
 
     obj.image80 = GUI.fromHandle(_obj_newObject("image"));
@@ -3289,7 +3281,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup11:setWidth(400);
     obj.popMeuPopup11:setHeight(533);
     obj.popMeuPopup11:setBackOpacity(0.5);
-    obj.popMeuPopup11:setAlign("left");
     obj.popMeuPopup11:setMargins({bottom=400});
 
     obj.image82 = GUI.fromHandle(_obj_newObject("image"));
@@ -3382,7 +3373,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup12:setWidth(400);
     obj.popMeuPopup12:setHeight(533);
     obj.popMeuPopup12:setBackOpacity(0.5);
-    obj.popMeuPopup12:setAlign("left");
     obj.popMeuPopup12:setMargins({bottom=400});
 
     obj.image84 = GUI.fromHandle(_obj_newObject("image"));
@@ -3484,7 +3474,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup13:setWidth(400);
     obj.popMeuPopup13:setHeight(533);
     obj.popMeuPopup13:setBackOpacity(0.5);
-    obj.popMeuPopup13:setAlign("left");
     obj.popMeuPopup13:setMargins({bottom=400});
 
     obj.image86 = GUI.fromHandle(_obj_newObject("image"));
@@ -3577,7 +3566,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup14:setWidth(400);
     obj.popMeuPopup14:setHeight(533);
     obj.popMeuPopup14:setBackOpacity(0.5);
-    obj.popMeuPopup14:setAlign("left");
     obj.popMeuPopup14:setMargins({bottom=400});
 
     obj.image88 = GUI.fromHandle(_obj_newObject("image"));
@@ -3670,7 +3658,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup15:setWidth(400);
     obj.popMeuPopup15:setHeight(700);
     obj.popMeuPopup15:setBackOpacity(0.5);
-    obj.popMeuPopup15:setAlign("left");
     obj.popMeuPopup15:setMargins({bottom=400});
 
     obj.image90 = GUI.fromHandle(_obj_newObject("image"));
@@ -3763,7 +3750,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup16:setWidth(400);
     obj.popMeuPopup16:setHeight(700);
     obj.popMeuPopup16:setBackOpacity(0.5);
-    obj.popMeuPopup16:setAlign("left");
     obj.popMeuPopup16:setMargins({bottom=400});
 
     obj.image92 = GUI.fromHandle(_obj_newObject("image"));
@@ -4110,7 +4096,8 @@ local function constructNew_frmFicha()
     obj.InventarioM3 = GUI.fromHandle(_obj_newObject("layout"));
     obj.InventarioM3:setParent(obj.scrollBox2);
     obj.InventarioM3:setName("InventarioM3");
-    obj.InventarioM3:setAlign("client");
+    obj.InventarioM3:setWidth(700);
+    obj.InventarioM3:setHeight(900);
     obj.InventarioM3:setVisible(false);
 
     obj.image109 = GUI.fromHandle(_obj_newObject("image"));
@@ -4404,7 +4391,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup18:setWidth(400);
     obj.popMeuPopup18:setHeight(533);
     obj.popMeuPopup18:setBackOpacity(0.5);
-    obj.popMeuPopup18:setAlign("left");
     obj.popMeuPopup18:setMargins({bottom=400});
 
     obj.image128 = GUI.fromHandle(_obj_newObject("image"));
@@ -4497,7 +4483,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup19:setWidth(400);
     obj.popMeuPopup19:setHeight(533);
     obj.popMeuPopup19:setBackOpacity(0.5);
-    obj.popMeuPopup19:setAlign("left");
     obj.popMeuPopup19:setMargins({bottom=400});
 
     obj.image130 = GUI.fromHandle(_obj_newObject("image"));
@@ -4590,7 +4575,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup20:setWidth(400);
     obj.popMeuPopup20:setHeight(533);
     obj.popMeuPopup20:setBackOpacity(0.5);
-    obj.popMeuPopup20:setAlign("left");
     obj.popMeuPopup20:setMargins({bottom=400});
 
     obj.image132 = GUI.fromHandle(_obj_newObject("image"));
@@ -4692,7 +4676,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup21:setWidth(400);
     obj.popMeuPopup21:setHeight(533);
     obj.popMeuPopup21:setBackOpacity(0.5);
-    obj.popMeuPopup21:setAlign("left");
     obj.popMeuPopup21:setMargins({bottom=400});
 
     obj.image134 = GUI.fromHandle(_obj_newObject("image"));
@@ -4785,7 +4768,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup22:setWidth(400);
     obj.popMeuPopup22:setHeight(533);
     obj.popMeuPopup22:setBackOpacity(0.5);
-    obj.popMeuPopup22:setAlign("left");
     obj.popMeuPopup22:setMargins({bottom=400});
 
     obj.image136 = GUI.fromHandle(_obj_newObject("image"));
@@ -4878,7 +4860,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup23:setWidth(400);
     obj.popMeuPopup23:setHeight(533);
     obj.popMeuPopup23:setBackOpacity(0.5);
-    obj.popMeuPopup23:setAlign("left");
     obj.popMeuPopup23:setMargins({bottom=400});
 
     obj.image138 = GUI.fromHandle(_obj_newObject("image"));
@@ -4971,7 +4952,6 @@ local function constructNew_frmFicha()
     obj.popMeuPopup24:setWidth(400);
     obj.popMeuPopup24:setHeight(533);
     obj.popMeuPopup24:setBackOpacity(0.5);
-    obj.popMeuPopup24:setAlign("left");
     obj.popMeuPopup24:setMargins({bottom=400});
 
     obj.image140 = GUI.fromHandle(_obj_newObject("image"));

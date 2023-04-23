@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <group>
  <scrollBox align="client">
- <layout name="inventario4" align="client">
+ <layout name="inventario4" width="700" height="900" visible="false">
  <!-- Imagem base aqui -->
  <image src="/imagens/Inventario.png" left="0" top="0" width="700" height="900"/>
  

@@ -1,5 +1,5 @@
 <group>
-	<layout name="InventarioM3" align="client" visible="false">
+	<layout name="InventarioM3" width="700" height="900" visible="false">
 	   
 	<!-- Imagem base aqui -->
 	-- aqui fica a imagem de fundo
@@ -222,7 +222,7 @@
 			</image>  	   
 		 </popup>
 	 
-		 <popup name="popMeuPopup18" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}">
+		 <popup name="popMeuPopup18" width="400" height="533" backOpacity="0.5" margins="{bottom=400}">
 			   <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
 		<button onclick="RolarItem18()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar" />
    
@@ -243,7 +243,7 @@
 			</image>  
 		 </popup>  
 		 
-		 <popup name="popMeuPopup19" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}">
+		 <popup name="popMeuPopup19" width="400" height="533" backOpacity="0.5" margins="{bottom=400}">
 			   <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
 		<button onClick="RolarItem19()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar"/>
    
@@ -263,7 +263,7 @@
 			</image>  
 		 </popup> 
 		 
-		 <popup name="popMeuPopup20" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}">
+		 <popup name="popMeuPopup20" width="400" height="533" backOpacity="0.5" margins="{bottom=400}">
 			   <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
 					 <button onclick="RolarItem20()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar" />
    
@@ -286,7 +286,7 @@
 			</image> 
 		 </popup> 	  
    
-		 <popup name="popMeuPopup21" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}">
+		 <popup name="popMeuPopup21" width="400" height="533" backOpacity="0.5" margins="{bottom=400}">
 			   <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
 					 <button onclick="RolarItem21()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar" />
    
@@ -308,7 +308,7 @@
 			</image> 
 		 </popup> 	
    
-		 <popup name="popMeuPopup22" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}">
+		 <popup name="popMeuPopup22" width="400" height="533" backOpacity="0.5" margins="{bottom=400}">
 			   <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
 		 <button onclick="RolarItem22()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar" />
    
@@ -329,7 +329,7 @@
 			</image> 	   
 		 </popup> 	
    
-		 <popup name="popMeuPopup23" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}"> 
+		 <popup name="popMeuPopup23" width="400" height="533" backOpacity="0.5" margins="{bottom=400}"> 
 			   <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
 		 <button onclick="RolarItem23()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar" />
    
@@ -350,7 +350,7 @@
 			</image> 
 		 </popup> 	
    
-		 <popup name="popMeuPopup24" width="400" height="533" backOpacity="0.5" align="left" margins="{bottom=400}">
+		 <popup name="popMeuPopup24" width="400" height="533" backOpacity="0.5" margins="{bottom=400}">
 			   <image src="/imagens/infDosItens.png" width="400" height="533" left="0" top="0"/>
 					 <button onClick="RolarItem24()" left="70.28" top="101.31" width="41.25" height="23.34" text="Usar"/>
    
