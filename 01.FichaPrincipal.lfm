@@ -54,7 +54,7 @@ end;
 			<button left="0" top="85" width="85" text="Atualizar" fontStyle="bold" fontColor="yellow" onClick="gui.openInBrowser('https://github.com/MestreWilll/ProjetoXII_Plugin_Firecast/blob/master/output/ProjetoXII_Plugin_Firecast.rpk?raw=true')" />
 		
 		<rectangle left="0" top="21" width="102" height="22" color="white" strokeColor="black" strokeSize="1"/>
-		<image left="0" top="22" width="100" height="20" style="autoFit" src="https://dl.dropboxusercontent.com/s/oljhvveqhcswgy1/suaversao%204.png?dl=0"/>
+		<image left="0" top="22" width="100" height="20" style="autoFit" src="https://dl.dropboxusercontent.com/s/0y0s9vwdllm7btz/suaversao%205.png?dl=0"/>
 		
 		<rectangle left="0" top="63" width="102" height="22" color="white" strokeColor="black" strokeSize="1"/>
 		<image name="imgVersaoAtual" src="/imagens/versaoCopia.png" left="0" top="64" width="100" height="20" style="autoFit"/>	

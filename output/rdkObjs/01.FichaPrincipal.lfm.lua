@@ -130,7 +130,7 @@ local function constructNew_frmFicha1_svg()
     obj.image2:setWidth(100);
     obj.image2:setHeight(20);
     obj.image2:setStyle("autoFit");
-    obj.image2:setSRC("https://dl.dropboxusercontent.com/s/oljhvveqhcswgy1/suaversao%204.png?dl=0");
+    obj.image2:setSRC("https://dl.dropboxusercontent.com/s/0y0s9vwdllm7btz/suaversao%205.png?dl=0");
     obj.image2:setName("image2");
 
     obj.rectangle2 = GUI.fromHandle(_obj_newObject("rectangle"));
