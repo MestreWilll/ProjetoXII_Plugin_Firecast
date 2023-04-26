@@ -376,7 +376,7 @@ end;
 				 		<event name="onClick">
 		  local Parcela = (sheet.Parcela or 0) -1;
 		    if Parcela >= 0 then
-			 sheet.Parcela = Parcela; sheet.pontosatributo = (sheet.pontosatributo or 0) +0.9;
+			 sheet.Parcela = Parcela; sheet.pontosatributo = (sheet.pontosatributo or 0) +1;
 	                 	else 
 	          showMessage("CALMA CARA! Não tem mais nada aqui...")    
          end;			  
@@ -628,7 +628,7 @@ end;
 				 		<event name="onClick">
 		  local Parcela8s = (sheet.Parcela8s or 0) -1;
 		    if Parcela8s >= 0 then
-			 sheet.Parcela8s = Parcela8s; sheet.pontosatributo = (sheet.pontosatributo or 0) +0.8;
+			 sheet.Parcela8s = Parcela8s; sheet.pontosatributo = (sheet.pontosatributo or 0) +1;
 	                 	else 
 	          showMessage("CALMA CARA! Não tem mais nada aqui...")    
          end;			  
@@ -637,7 +637,7 @@ end;
 				  <button top="689" left="260" text="Invisivel" opacity="0">
 				  		 	  <event name="onClick">
 	    if rrpg.getMesaDe(sheet).meuJogador.isMestre then
-		dialogs.inputQuery("Caixa de Poções", "Qts sortes queimar:", "",
+		dialogs.inputQuery("Queimando sorte", "Qts sortes queimar:", "",
 		   function (valorPreenchido)
 					  sheet.Parcela8s = (sheet.Parcela8s or 0) + valorPreenchido; 
 	    end);
@@ -749,10 +749,17 @@ end;
       fontSize="22" fontFamily="Andalus" fontColor="black">
 	   <button align="top" text="R" margins="{top=34}" fontStyle="bold" width="10" height="15">
 		 <event name="onClick">
-					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela18 or "0"));
-					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Força de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
-			
+            local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+            local msg = "";
+            
+            local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela18 or "0"));
+            local mesaDoPersonagem = rrpg.getMesaDe(sheet);
+            mesaDoPersonagem.activeChat:rolarDados(rolagem, "Força de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"), 
+			function(rolagem)
+                msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                showMessage(msg);
+            end);
+
 	     </event>
 	     </button>
 		  </label>
@@ -761,9 +768,17 @@ end;
       fontSize="22" fontFamily="Andalus" fontColor="black">
 	   <button align="top" text="R" margins="{top=34}" fontStyle="bold" width="10" height="15">
 		 <event name="onClick">
+		             local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+            local msg = "";
+
 					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela19 or "0"));
 					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Habilidade de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
+					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Habilidade de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+								function(rolagem)
+                msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                showMessage(msg);
+            end);
+
 			
 	     </event>
 	     </button>
@@ -772,10 +787,17 @@ end;
       fontSize="22" fontFamily="Andalus" fontColor="black">
 	   <button align="top" text="R" margins="{top=34}" fontStyle="bold" width="10" height="15">
 		 <event name="onClick">
+		             local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+            local msg = "";
+
 					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela20 or "0"));
 					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Destreza de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
-			
+					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Destreza de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+											function(rolagem)
+                msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                showMessage(msg);
+            end);
+
 	     </event>
 	     </button>
 		  </label>	  
@@ -783,10 +805,17 @@ end;
       fontSize="22" fontFamily="Andalus" fontColor="black">
 	   <button align="top" text="R" margins="{top=34}" fontStyle="bold" width="10" height="15">
 		 <event name="onClick">
+		 		             local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+            local msg = "";
+
 					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela21 or "0"));
 					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Esquiva de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
-			
+					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Esquiva de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+														function(rolagem)
+                msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                showMessage(msg);
+            end);
+
 	     </event>
 	     </button>
 		  </label>  
@@ -794,10 +823,17 @@ end;
       fontSize="22" fontFamily="Andalus" fontColor="black">
 	   <button align="top" text="R" margins="{top=34}" fontStyle="bold" width="10" height="15">
 		 <event name="onClick">
+		 		 		             local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+            local msg = "";
+
 					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela22 or "0"));
 					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Energia de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
-			
+					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Energia de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+																	function(rolagem)
+                msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                showMessage(msg);
+            end);
+
 	     </event>
 	     </button>
 		  </label>	  
@@ -805,10 +841,17 @@ end;
       fontSize="22" fontFamily="Andalus" fontColor="black">
 	   <button align="top" text="R" margins="{top=34}" fontStyle="bold" width="10" height="15">
 		 <event name="onClick">
+		 		 		 		             local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+            local msg = "";
+
 					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela23 or "0"));
 					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Inteligência de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
-			
+					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Inteligência de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+																				function(rolagem)
+                msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                showMessage(msg);
+            end);
+
 	     </event>
 	     </button>
 		  </label>	  
@@ -816,10 +859,17 @@ end;
       fontSize="22" fontFamily="Andalus" fontColor="black">
 	   <button align="top" text="R" margins="{top=34}" fontStyle="bold" width="10" height="15">
 		 <event name="onClick">
+		 		 		 		 		             local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+            local msg = "";
+
 					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela24 or "0"));
 					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Carisma de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
-			
+					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Carisma de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+																							function(rolagem)
+                msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                showMessage(msg);
+            end);
+
 	     </event>
 	     </button>
 		  </label>  
@@ -827,10 +877,17 @@ end;
       fontSize="22" fontFamily="Andalus" fontColor="black">
 	   <button align="top" text="R" margins="{top=34}" fontStyle="bold" width="10" height="15">
 		 <event name="onClick">
+		 		 		 		 		 		             local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+            local msg = "";
+
 					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela25 or "0"));
 					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Resistência de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
-			
+					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Resistência de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+																										function(rolagem)
+                msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                showMessage(msg);
+            end);
+
 	     </event>
 	     </button>
 		  </label>  
@@ -838,10 +895,16 @@ end;
       fontSize="22" fontFamily="Andalus" fontColor="black">
 	   <button align="top" text="R" margins="{top=34}" fontStyle="bold" width="10" height="15">
 		 <event name="onClick">
+		 		 		 		 		 		 		             local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+            local msg = "";
+
 					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela26 or "0"));
 					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Percepção de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
-			
+					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Percepção de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+																													function(rolagem)
+                msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                showMessage(msg);
+            end);
 	     </event>
 	     </button>
 		  </label>	  

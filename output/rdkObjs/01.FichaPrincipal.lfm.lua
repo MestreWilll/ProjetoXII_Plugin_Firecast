@@ -1813,7 +1813,7 @@ local function constructNew_frmFicha1_svg()
         function (_)
             local Parcela = (sheet.Parcela or 0) -1;
             		    if Parcela >= 0 then
-            			 sheet.Parcela = Parcela; sheet.pontosatributo = (sheet.pontosatributo or 0) +0.9;
+            			 sheet.Parcela = Parcela; sheet.pontosatributo = (sheet.pontosatributo or 0) +1;
             	                 	else 
             	          showMessage("CALMA CARA! Não tem mais nada aqui...")    
                      end;
@@ -1993,7 +1993,7 @@ local function constructNew_frmFicha1_svg()
         function (_)
             local Parcela8s = (sheet.Parcela8s or 0) -1;
             		    if Parcela8s >= 0 then
-            			 sheet.Parcela8s = Parcela8s; sheet.pontosatributo = (sheet.pontosatributo or 0) +0.8;
+            			 sheet.Parcela8s = Parcela8s; sheet.pontosatributo = (sheet.pontosatributo or 0) +1;
             	                 	else 
             	          showMessage("CALMA CARA! Não tem mais nada aqui...")    
                      end;
@@ -2002,7 +2002,7 @@ local function constructNew_frmFicha1_svg()
     obj._e_event34 = obj.button7:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
-            		dialogs.inputQuery("Caixa de Poções", "Qts sortes queimar:", "",
+            		dialogs.inputQuery("Queimando sorte", "Qts sortes queimar:", "",
             		   function (valorPreenchido)
             					  sheet.Parcela8s = (sheet.Parcela8s or 0) + valorPreenchido; 
             	    end);
@@ -2101,65 +2101,128 @@ local function constructNew_frmFicha1_svg()
 
     obj._e_event44 = obj.button8:addEventListener("onClick",
         function (_)
-            local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela18 or "0"));
-            					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Força de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
+            local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+                        local msg = "";
+                        
+                        local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela18 or "0"));
+                        local mesaDoPersonagem = rrpg.getMesaDe(sheet);
+                        mesaDoPersonagem.activeChat:rolarDados(rolagem, "Força de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"), 
+            			function(rolagem)
+                            msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                            showMessage(msg);
+                        end);
         end, obj);
 
     obj._e_event45 = obj.button9:addEventListener("onClick",
         function (_)
-            local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela19 or "0"));
+            local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+                        local msg = "";
+            
+            					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela19 or "0"));
             					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Habilidade de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
+            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Habilidade de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+            								function(rolagem)
+                            msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                            showMessage(msg);
+                        end);
         end, obj);
 
     obj._e_event46 = obj.button10:addEventListener("onClick",
         function (_)
-            local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela20 or "0"));
+            local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+                        local msg = "";
+            
+            					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela20 or "0"));
             					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Destreza de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
+            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Destreza de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+            											function(rolagem)
+                            msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                            showMessage(msg);
+                        end);
         end, obj);
 
     obj._e_event47 = obj.button11:addEventListener("onClick",
         function (_)
-            local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela21 or "0"));
+            local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+                        local msg = "";
+            
+            					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela21 or "0"));
             					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Esquiva de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
+            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Esquiva de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+            														function(rolagem)
+                            msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                            showMessage(msg);
+                        end);
         end, obj);
 
     obj._e_event48 = obj.button12:addEventListener("onClick",
         function (_)
-            local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela22 or "0"));
+            local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+                        local msg = "";
+            
+            					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela22 or "0"));
             					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Energia de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
+            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Energia de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+            																	function(rolagem)
+                            msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                            showMessage(msg);
+                        end);
         end, obj);
 
     obj._e_event49 = obj.button13:addEventListener("onClick",
         function (_)
-            local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela23 or "0"));
+            local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+                        local msg = "";
+            
+            					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela23 or "0"));
             					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Inteligência de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
+            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Inteligência de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+            																				function(rolagem)
+                            msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                            showMessage(msg);
+                        end);
         end, obj);
 
     obj._e_event50 = obj.button14:addEventListener("onClick",
         function (_)
-            local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela24 or "0"));
+            local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+                        local msg = "";
+            
+            					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela24 or "0"));
             					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Carisma de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
+            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Carisma de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+            																							function(rolagem)
+                            msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                            showMessage(msg);
+                        end);
         end, obj);
 
     obj._e_event51 = obj.button15:addEventListener("onClick",
         function (_)
-            local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela25 or "0"));
+            local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+                        local msg = "";
+            
+            					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela25 or "0"));
             					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Resistência de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
+            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Resistência de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+            																										function(rolagem)
+                            msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                            showMessage(msg);
+                        end);
         end, obj);
 
     obj._e_event52 = obj.button16:addEventListener("onClick",
         function (_)
-            local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela26 or "0"));
+            local mesaDoPersonagem = Firecast.getMesaDe(sheet);
+                        local msg = "";
+            
+            					local rolagem = rrpg.interpretarRolagem("1d20 + " .. (sheet.Parcela26 or "0"));
             					local mesaDoPersonagem = rrpg.getMesaDe(sheet);
-            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Percepção de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"));
+            					mesaDoPersonagem.activeChat:rolarDados(rolagem, "Percepção de " .. (sheet.nomePersonagem or "PONHA UM NOME NO PERSONAGEM"),
+            																													function(rolagem)
+                            msg = msg .. "------------------- \nResultado da rolagem: " .. rolagem.resultado;
+                            showMessage(msg);
+                        end);
         end, obj);
 
     obj._e_event53 = obj.dataLink2:addEventListener("onChange",
