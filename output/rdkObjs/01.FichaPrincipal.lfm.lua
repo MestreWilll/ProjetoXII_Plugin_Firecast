@@ -1470,6 +1470,18 @@ local function constructNew_frmFicha1_svg()
     obj.label6:setFontColor("gray");
     obj.label6:setName("label6");
 
+    obj.label7 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label7:setParent(obj.PPR2);
+    obj.label7:setText("Preço: $120");
+    obj.label7:setFontSize(20);
+    obj.label7:setFontColor("white");
+    lfm_setPropAsString(obj.label7, "fontStyle",  "bold");
+    obj.label7:setLeft(100);
+    obj.label7:setTop(408);
+    obj.label7:setWordWrap(true);
+    obj.label7:setAutoSize(true);
+    obj.label7:setName("label7");
+
     obj.image32 = GUI.fromHandle(_obj_newObject("image"));
     obj.image32:setParent(obj.PPR2);
     obj.image32:setSRC("/imagens/Dinheiro.png");
@@ -2700,7 +2712,7 @@ local function constructNew_frmFicha1_svg()
         if self.luz ~= nil then self.luz:destroy(); self.luz = nil; end;
         if self.button9 ~= nil then self.button9:destroy(); self.button9 = nil; end;
         if self.AB1usar ~= nil then self.AB1usar:destroy(); self.AB1usar = nil; end;
-        if self.rclListaContatos ~= nil then self.rclListaContatos:destroy(); self.rclListaContatos = nil; end;
+        if self.label7 ~= nil then self.label7:destroy(); self.label7 = nil; end;
         if self.button8 ~= nil then self.button8:destroy(); self.button8 = nil; end;
         if self.Parcela8s ~= nil then self.Parcela8s:destroy(); self.Parcela8s = nil; end;
         if self.Parcela22 ~= nil then self.Parcela22:destroy(); self.Parcela22 = nil; end;
@@ -2711,6 +2723,7 @@ local function constructNew_frmFicha1_svg()
         if self.image23 ~= nil then self.image23:destroy(); self.image23 = nil; end;
         if self.image31 ~= nil then self.image31:destroy(); self.image31 = nil; end;
         if self.label5 ~= nil then self.label5:destroy(); self.label5 = nil; end;
+        if self.rclListaContatos ~= nil then self.rclListaContatos:destroy(); self.rclListaContatos = nil; end;
         if self.Parcela2 ~= nil then self.Parcela2:destroy(); self.Parcela2 = nil; end;
         if self.dataLink11 ~= nil then self.dataLink11:destroy(); self.dataLink11 = nil; end;
         if self.image4 ~= nil then self.image4:destroy(); self.image4 = nil; end;

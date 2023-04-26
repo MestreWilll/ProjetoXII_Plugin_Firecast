@@ -145,6 +145,8 @@
 	   
 	   <label field="Quantidade1" left="72" top="207" fontSize="14" fontStyle="bold" fontColor="gray"/>
 	   <label field="Quantidade2" left="75" top="307" fontSize="14" fontStyle="bold" fontColor="gray"/>
+
+	   <label text="Preço: $120" fontSize="20" fontColor="white" fontStyle="bold" left="100" top="408" wordWrap="true" autoSize="true"/> 
 	 
 	 
 	 

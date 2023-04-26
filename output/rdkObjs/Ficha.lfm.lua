@@ -1489,6 +1489,18 @@ local function constructNew_frmFicha()
     obj.label6:setFontColor("gray");
     obj.label6:setName("label6");
 
+    obj.label7 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label7:setParent(obj.PPR2);
+    obj.label7:setText("Preço: $120");
+    obj.label7:setFontSize(20);
+    obj.label7:setFontColor("white");
+    lfm_setPropAsString(obj.label7, "fontStyle",  "bold");
+    obj.label7:setLeft(100);
+    obj.label7:setTop(408);
+    obj.label7:setWordWrap(true);
+    obj.label7:setAutoSize(true);
+    obj.label7:setName("label7");
+
     obj.image32 = GUI.fromHandle(_obj_newObject("image"));
     obj.image32:setParent(obj.PPR2);
     obj.image32:setSRC("/imagens/Dinheiro.png");
@@ -5705,17 +5717,17 @@ local function constructNew_frmFicha()
     obj.edit1:setTransparent(true);
     obj.edit1:setName("edit1");
 
-    obj.label7 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label7:setParent(obj.HjQNave);
-    obj.label7:setField("nivelNave1");
-    obj.label7:setLeft(153.12);
-    obj.label7:setTop(203.50);
-    obj.label7:setWidth(173.62);
-    obj.label7:setHeight(47.25);
-    obj.label7:setHorzTextAlign("center");
-    obj.label7:setFontSize(30);
-    lfm_setPropAsString(obj.label7, "fontStyle",  "bold");
-    obj.label7:setName("label7");
+    obj.label8 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label8:setParent(obj.HjQNave);
+    obj.label8:setField("nivelNave1");
+    obj.label8:setLeft(153.12);
+    obj.label8:setTop(203.50);
+    obj.label8:setWidth(173.62);
+    obj.label8:setHeight(47.25);
+    obj.label8:setHorzTextAlign("center");
+    obj.label8:setFontSize(30);
+    lfm_setPropAsString(obj.label8, "fontStyle",  "bold");
+    obj.label8:setName("label8");
 
     obj.textEditor1 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor1:setParent(obj.HjQNave);
@@ -5981,17 +5993,17 @@ local function constructNew_frmFicha()
     obj.edit4:setTransparent(true);
     obj.edit4:setName("edit4");
 
-    obj.label8 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label8:setParent(obj.HnmNave);
-    obj.label8:setField("nivelNave2");
-    obj.label8:setLeft(153.12);
-    obj.label8:setTop(203.50);
-    obj.label8:setWidth(173.62);
-    obj.label8:setHeight(47.25);
-    obj.label8:setHorzTextAlign("center");
-    obj.label8:setFontSize(30);
-    lfm_setPropAsString(obj.label8, "fontStyle",  "bold");
-    obj.label8:setName("label8");
+    obj.label9 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label9:setParent(obj.HnmNave);
+    obj.label9:setField("nivelNave2");
+    obj.label9:setLeft(153.12);
+    obj.label9:setTop(203.50);
+    obj.label9:setWidth(173.62);
+    obj.label9:setHeight(47.25);
+    obj.label9:setHorzTextAlign("center");
+    obj.label9:setFontSize(30);
+    lfm_setPropAsString(obj.label9, "fontStyle",  "bold");
+    obj.label9:setName("label9");
 
     obj.textEditor3 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor3:setParent(obj.HnmNave);
@@ -6257,17 +6269,17 @@ local function constructNew_frmFicha()
     obj.edit7:setTransparent(true);
     obj.edit7:setName("edit7");
 
-    obj.label9 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label9:setParent(obj.HppNave);
-    obj.label9:setField("nivelNave3");
-    obj.label9:setLeft(153.12);
-    obj.label9:setTop(203.50);
-    obj.label9:setWidth(173.62);
-    obj.label9:setHeight(47.25);
-    obj.label9:setHorzTextAlign("center");
-    obj.label9:setFontSize(30);
-    lfm_setPropAsString(obj.label9, "fontStyle",  "bold");
-    obj.label9:setName("label9");
+    obj.label10 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label10:setParent(obj.HppNave);
+    obj.label10:setField("nivelNave3");
+    obj.label10:setLeft(153.12);
+    obj.label10:setTop(203.50);
+    obj.label10:setWidth(173.62);
+    obj.label10:setHeight(47.25);
+    obj.label10:setHorzTextAlign("center");
+    obj.label10:setFontSize(30);
+    lfm_setPropAsString(obj.label10, "fontStyle",  "bold");
+    obj.label10:setName("label10");
 
     obj.textEditor5 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor5:setParent(obj.HppNave);
@@ -6533,18 +6545,18 @@ local function constructNew_frmFicha()
     obj.edit10:setTransparent(true);
     obj.edit10:setName("edit10");
 
-    obj.label10 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label10:setParent(obj.HjKLNave);
-    obj.label10:setField("nivelNave4");
-    obj.label10:setLeft(153.12);
-    obj.label10:setTop(203.50);
-    obj.label10:setWidth(173.62);
-    obj.label10:setHeight(47.25);
-    obj.label10:setHorzTextAlign("center");
-    obj.label10:setFontSize(30);
-    lfm_setPropAsString(obj.label10, "fontStyle",  "bold");
-    obj.label10:setText("0");
-    obj.label10:setName("label10");
+    obj.label11 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label11:setParent(obj.HjKLNave);
+    obj.label11:setField("nivelNave4");
+    obj.label11:setLeft(153.12);
+    obj.label11:setTop(203.50);
+    obj.label11:setWidth(173.62);
+    obj.label11:setHeight(47.25);
+    obj.label11:setHorzTextAlign("center");
+    obj.label11:setFontSize(30);
+    lfm_setPropAsString(obj.label11, "fontStyle",  "bold");
+    obj.label11:setText("0");
+    obj.label11:setName("label11");
 
     obj.textEditor7 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor7:setParent(obj.HjKLNave);
@@ -6810,18 +6822,18 @@ local function constructNew_frmFicha()
     obj.edit13:setTransparent(true);
     obj.edit13:setName("edit13");
 
-    obj.label11 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label11:setParent(obj.HccDNave);
-    obj.label11:setField("nivelNave5");
-    obj.label11:setLeft(153.12);
-    obj.label11:setTop(203.50);
-    obj.label11:setWidth(173.62);
-    obj.label11:setHeight(47.25);
-    obj.label11:setHorzTextAlign("center");
-    obj.label11:setFontSize(30);
-    lfm_setPropAsString(obj.label11, "fontStyle",  "bold");
-    obj.label11:setText("0");
-    obj.label11:setName("label11");
+    obj.label12 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label12:setParent(obj.HccDNave);
+    obj.label12:setField("nivelNave5");
+    obj.label12:setLeft(153.12);
+    obj.label12:setTop(203.50);
+    obj.label12:setWidth(173.62);
+    obj.label12:setHeight(47.25);
+    obj.label12:setHorzTextAlign("center");
+    obj.label12:setFontSize(30);
+    lfm_setPropAsString(obj.label12, "fontStyle",  "bold");
+    obj.label12:setText("0");
+    obj.label12:setName("label12");
 
     obj.textEditor9 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor9:setParent(obj.HccDNave);
@@ -7087,18 +7099,18 @@ local function constructNew_frmFicha()
     obj.edit16:setTransparent(true);
     obj.edit16:setName("edit16");
 
-    obj.label12 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label12:setParent(obj.H2bNave);
-    obj.label12:setField("nivelNave6");
-    obj.label12:setLeft(153.12);
-    obj.label12:setTop(203.50);
-    obj.label12:setWidth(173.62);
-    obj.label12:setHeight(47.25);
-    obj.label12:setHorzTextAlign("center");
-    obj.label12:setFontSize(30);
-    lfm_setPropAsString(obj.label12, "fontStyle",  "bold");
-    obj.label12:setText("0");
-    obj.label12:setName("label12");
+    obj.label13 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label13:setParent(obj.H2bNave);
+    obj.label13:setField("nivelNave6");
+    obj.label13:setLeft(153.12);
+    obj.label13:setTop(203.50);
+    obj.label13:setWidth(173.62);
+    obj.label13:setHeight(47.25);
+    obj.label13:setHorzTextAlign("center");
+    obj.label13:setFontSize(30);
+    lfm_setPropAsString(obj.label13, "fontStyle",  "bold");
+    obj.label13:setText("0");
+    obj.label13:setName("label13");
 
     obj.textEditor11 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor11:setParent(obj.H2bNave);
@@ -7364,18 +7376,18 @@ local function constructNew_frmFicha()
     obj.edit19:setTransparent(true);
     obj.edit19:setName("edit19");
 
-    obj.label13 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label13:setParent(obj.HhOpNave);
-    obj.label13:setField("nivelNave7");
-    obj.label13:setLeft(153.12);
-    obj.label13:setTop(203.50);
-    obj.label13:setWidth(173.62);
-    obj.label13:setHeight(47.25);
-    obj.label13:setHorzTextAlign("center");
-    obj.label13:setFontSize(30);
-    lfm_setPropAsString(obj.label13, "fontStyle",  "bold");
-    obj.label13:setText("0");
-    obj.label13:setName("label13");
+    obj.label14 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label14:setParent(obj.HhOpNave);
+    obj.label14:setField("nivelNave7");
+    obj.label14:setLeft(153.12);
+    obj.label14:setTop(203.50);
+    obj.label14:setWidth(173.62);
+    obj.label14:setHeight(47.25);
+    obj.label14:setHorzTextAlign("center");
+    obj.label14:setFontSize(30);
+    lfm_setPropAsString(obj.label14, "fontStyle",  "bold");
+    obj.label14:setText("0");
+    obj.label14:setName("label14");
 
     obj.textEditor13 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor13:setParent(obj.HhOpNave);
@@ -7641,18 +7653,18 @@ local function constructNew_frmFicha()
     obj.edit22:setTransparent(true);
     obj.edit22:setName("edit22");
 
-    obj.label14 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label14:setParent(obj.H3oNave);
-    obj.label14:setField("nivelNave8");
-    obj.label14:setLeft(153.12);
-    obj.label14:setTop(203.50);
-    obj.label14:setWidth(173.62);
-    obj.label14:setHeight(47.25);
-    obj.label14:setHorzTextAlign("center");
-    obj.label14:setFontSize(30);
-    lfm_setPropAsString(obj.label14, "fontStyle",  "bold");
-    obj.label14:setText("0");
-    obj.label14:setName("label14");
+    obj.label15 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label15:setParent(obj.H3oNave);
+    obj.label15:setField("nivelNave8");
+    obj.label15:setLeft(153.12);
+    obj.label15:setTop(203.50);
+    obj.label15:setWidth(173.62);
+    obj.label15:setHeight(47.25);
+    obj.label15:setHorzTextAlign("center");
+    obj.label15:setFontSize(30);
+    lfm_setPropAsString(obj.label15, "fontStyle",  "bold");
+    obj.label15:setText("0");
+    obj.label15:setName("label15");
 
     obj.textEditor15 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor15:setParent(obj.H3oNave);
@@ -8072,18 +8084,18 @@ local function constructNew_frmFicha()
     obj.textEditor18:setTransparent(true);
     obj.textEditor18:setName("textEditor18");
 
-    obj.label15 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label15:setParent(obj.LqwNave);
-    obj.label15:setField("nivelNave9");
-    obj.label15:setLeft(153.12);
-    obj.label15:setTop(203.50);
-    obj.label15:setWidth(173.62);
-    obj.label15:setHeight(47.25);
-    obj.label15:setHorzTextAlign("center");
-    obj.label15:setFontSize(30);
-    lfm_setPropAsString(obj.label15, "fontStyle",  "bold");
-    obj.label15:setHitTest(true);
-    obj.label15:setName("label15");
+    obj.label16 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label16:setParent(obj.LqwNave);
+    obj.label16:setField("nivelNave9");
+    obj.label16:setLeft(153.12);
+    obj.label16:setTop(203.50);
+    obj.label16:setWidth(173.62);
+    obj.label16:setHeight(47.25);
+    obj.label16:setHorzTextAlign("center");
+    obj.label16:setFontSize(30);
+    lfm_setPropAsString(obj.label16, "fontStyle",  "bold");
+    obj.label16:setHitTest(true);
+    obj.label16:setName("label16");
 
     obj.button53 = GUI.fromHandle(_obj_newObject("button"));
     obj.button53:setParent(obj.LqwNave);
@@ -8349,18 +8361,18 @@ local function constructNew_frmFicha()
     obj.textEditor20:setTransparent(true);
     obj.textEditor20:setName("textEditor20");
 
-    obj.label16 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label16:setParent(obj.LDaNave);
-    obj.label16:setField("nivelNave10");
-    obj.label16:setLeft(153.12);
-    obj.label16:setTop(203.50);
-    obj.label16:setWidth(173.62);
-    obj.label16:setHeight(47.25);
-    obj.label16:setHorzTextAlign("center");
-    obj.label16:setFontSize(30);
-    lfm_setPropAsString(obj.label16, "fontStyle",  "bold");
-    obj.label16:setHitTest(true);
-    obj.label16:setName("label16");
+    obj.label17 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label17:setParent(obj.LDaNave);
+    obj.label17:setField("nivelNave10");
+    obj.label17:setLeft(153.12);
+    obj.label17:setTop(203.50);
+    obj.label17:setWidth(173.62);
+    obj.label17:setHeight(47.25);
+    obj.label17:setHorzTextAlign("center");
+    obj.label17:setFontSize(30);
+    lfm_setPropAsString(obj.label17, "fontStyle",  "bold");
+    obj.label17:setHitTest(true);
+    obj.label17:setName("label17");
 
     obj.button54 = GUI.fromHandle(_obj_newObject("button"));
     obj.button54:setParent(obj.LDaNave);
@@ -8626,18 +8638,18 @@ local function constructNew_frmFicha()
     obj.textEditor22:setTransparent(true);
     obj.textEditor22:setName("textEditor22");
 
-    obj.label17 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label17:setParent(obj.LhnNave);
-    obj.label17:setField("nivelNave11");
-    obj.label17:setLeft(153.12);
-    obj.label17:setTop(203.50);
-    obj.label17:setWidth(173.62);
-    obj.label17:setHeight(47.25);
-    obj.label17:setHorzTextAlign("center");
-    obj.label17:setFontSize(30);
-    lfm_setPropAsString(obj.label17, "fontStyle",  "bold");
-    obj.label17:setHitTest(true);
-    obj.label17:setName("label17");
+    obj.label18 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label18:setParent(obj.LhnNave);
+    obj.label18:setField("nivelNave11");
+    obj.label18:setLeft(153.12);
+    obj.label18:setTop(203.50);
+    obj.label18:setWidth(173.62);
+    obj.label18:setHeight(47.25);
+    obj.label18:setHorzTextAlign("center");
+    obj.label18:setFontSize(30);
+    lfm_setPropAsString(obj.label18, "fontStyle",  "bold");
+    obj.label18:setHitTest(true);
+    obj.label18:setName("label18");
 
     obj.button55 = GUI.fromHandle(_obj_newObject("button"));
     obj.button55:setParent(obj.LhnNave);
@@ -8903,19 +8915,19 @@ local function constructNew_frmFicha()
     obj.textEditor24:setTransparent(true);
     obj.textEditor24:setName("textEditor24");
 
-    obj.label18 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label18:setParent(obj.LjNNave);
-    obj.label18:setField("nivelNave12");
-    obj.label18:setLeft(153.12);
-    obj.label18:setTop(203.50);
-    obj.label18:setWidth(173.62);
-    obj.label18:setHeight(47.25);
-    obj.label18:setHorzTextAlign("center");
-    obj.label18:setFontSize(30);
-    lfm_setPropAsString(obj.label18, "fontStyle",  "bold");
-    obj.label18:setText("0");
-    obj.label18:setHitTest(true);
-    obj.label18:setName("label18");
+    obj.label19 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label19:setParent(obj.LjNNave);
+    obj.label19:setField("nivelNave12");
+    obj.label19:setLeft(153.12);
+    obj.label19:setTop(203.50);
+    obj.label19:setWidth(173.62);
+    obj.label19:setHeight(47.25);
+    obj.label19:setHorzTextAlign("center");
+    obj.label19:setFontSize(30);
+    lfm_setPropAsString(obj.label19, "fontStyle",  "bold");
+    obj.label19:setText("0");
+    obj.label19:setHitTest(true);
+    obj.label19:setName("label19");
 
     obj.button56 = GUI.fromHandle(_obj_newObject("button"));
     obj.button56:setParent(obj.LjNNave);
@@ -9181,19 +9193,19 @@ local function constructNew_frmFicha()
     obj.textEditor26:setTransparent(true);
     obj.textEditor26:setName("textEditor26");
 
-    obj.label19 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label19:setParent(obj.LaHNave);
-    obj.label19:setField("nivelNave13");
-    obj.label19:setLeft(153.12);
-    obj.label19:setTop(203.50);
-    obj.label19:setWidth(173.62);
-    obj.label19:setHeight(47.25);
-    obj.label19:setHorzTextAlign("center");
-    obj.label19:setFontSize(30);
-    lfm_setPropAsString(obj.label19, "fontStyle",  "bold");
-    obj.label19:setText("0");
-    obj.label19:setHitTest(true);
-    obj.label19:setName("label19");
+    obj.label20 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label20:setParent(obj.LaHNave);
+    obj.label20:setField("nivelNave13");
+    obj.label20:setLeft(153.12);
+    obj.label20:setTop(203.50);
+    obj.label20:setWidth(173.62);
+    obj.label20:setHeight(47.25);
+    obj.label20:setHorzTextAlign("center");
+    obj.label20:setFontSize(30);
+    lfm_setPropAsString(obj.label20, "fontStyle",  "bold");
+    obj.label20:setText("0");
+    obj.label20:setHitTest(true);
+    obj.label20:setName("label20");
 
     obj.button57 = GUI.fromHandle(_obj_newObject("button"));
     obj.button57:setParent(obj.LaHNave);
@@ -9459,19 +9471,19 @@ local function constructNew_frmFicha()
     obj.textEditor28:setTransparent(true);
     obj.textEditor28:setName("textEditor28");
 
-    obj.label20 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label20:setParent(obj.LmHNave);
-    obj.label20:setField("nivelNave14");
-    obj.label20:setLeft(153.12);
-    obj.label20:setTop(203.50);
-    obj.label20:setWidth(173.62);
-    obj.label20:setHeight(47.25);
-    obj.label20:setHorzTextAlign("center");
-    obj.label20:setFontSize(30);
-    lfm_setPropAsString(obj.label20, "fontStyle",  "bold");
-    obj.label20:setText("0");
-    obj.label20:setHitTest(true);
-    obj.label20:setName("label20");
+    obj.label21 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label21:setParent(obj.LmHNave);
+    obj.label21:setField("nivelNave14");
+    obj.label21:setLeft(153.12);
+    obj.label21:setTop(203.50);
+    obj.label21:setWidth(173.62);
+    obj.label21:setHeight(47.25);
+    obj.label21:setHorzTextAlign("center");
+    obj.label21:setFontSize(30);
+    lfm_setPropAsString(obj.label21, "fontStyle",  "bold");
+    obj.label21:setText("0");
+    obj.label21:setHitTest(true);
+    obj.label21:setName("label21");
 
     obj.button58 = GUI.fromHandle(_obj_newObject("button"));
     obj.button58:setParent(obj.LmHNave);
@@ -9737,19 +9749,19 @@ local function constructNew_frmFicha()
     obj.textEditor30:setTransparent(true);
     obj.textEditor30:setName("textEditor30");
 
-    obj.label21 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label21:setParent(obj.LbAnNave);
-    obj.label21:setField("nivelNave15");
-    obj.label21:setLeft(153.12);
-    obj.label21:setTop(203.50);
-    obj.label21:setWidth(173.62);
-    obj.label21:setHeight(47.25);
-    obj.label21:setHorzTextAlign("center");
-    obj.label21:setFontSize(30);
-    lfm_setPropAsString(obj.label21, "fontStyle",  "bold");
-    obj.label21:setText("0");
-    obj.label21:setHitTest(true);
-    obj.label21:setName("label21");
+    obj.label22 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label22:setParent(obj.LbAnNave);
+    obj.label22:setField("nivelNave15");
+    obj.label22:setLeft(153.12);
+    obj.label22:setTop(203.50);
+    obj.label22:setWidth(173.62);
+    obj.label22:setHeight(47.25);
+    obj.label22:setHorzTextAlign("center");
+    obj.label22:setFontSize(30);
+    lfm_setPropAsString(obj.label22, "fontStyle",  "bold");
+    obj.label22:setText("0");
+    obj.label22:setHitTest(true);
+    obj.label22:setName("label22");
 
     obj.button59 = GUI.fromHandle(_obj_newObject("button"));
     obj.button59:setParent(obj.LbAnNave);
@@ -10015,19 +10027,19 @@ local function constructNew_frmFicha()
     obj.textEditor32:setTransparent(true);
     obj.textEditor32:setName("textEditor32");
 
-    obj.label22 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label22:setParent(obj.LgUNave);
-    obj.label22:setField("nivelNave16");
-    obj.label22:setLeft(153.12);
-    obj.label22:setTop(203.50);
-    obj.label22:setWidth(173.62);
-    obj.label22:setHeight(47.25);
-    obj.label22:setHorzTextAlign("center");
-    obj.label22:setFontSize(30);
-    lfm_setPropAsString(obj.label22, "fontStyle",  "bold");
-    obj.label22:setText("0");
-    obj.label22:setHitTest(true);
-    obj.label22:setName("label22");
+    obj.label23 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label23:setParent(obj.LgUNave);
+    obj.label23:setField("nivelNave16");
+    obj.label23:setLeft(153.12);
+    obj.label23:setTop(203.50);
+    obj.label23:setWidth(173.62);
+    obj.label23:setHeight(47.25);
+    obj.label23:setHorzTextAlign("center");
+    obj.label23:setFontSize(30);
+    lfm_setPropAsString(obj.label23, "fontStyle",  "bold");
+    obj.label23:setText("0");
+    obj.label23:setHitTest(true);
+    obj.label23:setName("label23");
 
     obj.button60 = GUI.fromHandle(_obj_newObject("button"));
     obj.button60:setParent(obj.LgUNave);
@@ -10427,18 +10439,18 @@ local function constructNew_frmFicha()
     obj.textEditor34:setTransparent(true);
     obj.textEditor34:setName("textEditor34");
 
-    obj.label23 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label23:setParent(obj.NkoNave);
-    obj.label23:setField("nivelNave17");
-    obj.label23:setLeft(153.12);
-    obj.label23:setTop(203.50);
-    obj.label23:setWidth(173.62);
-    obj.label23:setHeight(47.25);
-    obj.label23:setHorzTextAlign("center");
-    obj.label23:setFontSize(30);
-    lfm_setPropAsString(obj.label23, "fontStyle",  "bold");
-    obj.label23:setHitTest(true);
-    obj.label23:setName("label23");
+    obj.label24 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label24:setParent(obj.NkoNave);
+    obj.label24:setField("nivelNave17");
+    obj.label24:setLeft(153.12);
+    obj.label24:setTop(203.50);
+    obj.label24:setWidth(173.62);
+    obj.label24:setHeight(47.25);
+    obj.label24:setHorzTextAlign("center");
+    obj.label24:setFontSize(30);
+    lfm_setPropAsString(obj.label24, "fontStyle",  "bold");
+    obj.label24:setHitTest(true);
+    obj.label24:setName("label24");
 
     obj.button61 = GUI.fromHandle(_obj_newObject("button"));
     obj.button61:setParent(obj.NkoNave);
@@ -10704,18 +10716,18 @@ local function constructNew_frmFicha()
     obj.textEditor36:setTransparent(true);
     obj.textEditor36:setName("textEditor36");
 
-    obj.label24 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label24:setParent(obj.NnpNave);
-    obj.label24:setField("nivelNave18");
-    obj.label24:setLeft(153.12);
-    obj.label24:setTop(203.50);
-    obj.label24:setWidth(173.62);
-    obj.label24:setHeight(47.25);
-    obj.label24:setHorzTextAlign("center");
-    obj.label24:setFontSize(30);
-    lfm_setPropAsString(obj.label24, "fontStyle",  "bold");
-    obj.label24:setHitTest(true);
-    obj.label24:setName("label24");
+    obj.label25 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label25:setParent(obj.NnpNave);
+    obj.label25:setField("nivelNave18");
+    obj.label25:setLeft(153.12);
+    obj.label25:setTop(203.50);
+    obj.label25:setWidth(173.62);
+    obj.label25:setHeight(47.25);
+    obj.label25:setHorzTextAlign("center");
+    obj.label25:setFontSize(30);
+    lfm_setPropAsString(obj.label25, "fontStyle",  "bold");
+    obj.label25:setHitTest(true);
+    obj.label25:setName("label25");
 
     obj.button62 = GUI.fromHandle(_obj_newObject("button"));
     obj.button62:setParent(obj.NnpNave);
@@ -10981,18 +10993,18 @@ local function constructNew_frmFicha()
     obj.textEditor38:setTransparent(true);
     obj.textEditor38:setName("textEditor38");
 
-    obj.label25 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label25:setParent(obj.Ne3Nave);
-    obj.label25:setField("nivelNave19");
-    obj.label25:setLeft(153.12);
-    obj.label25:setTop(203.50);
-    obj.label25:setWidth(173.62);
-    obj.label25:setHeight(47.25);
-    obj.label25:setHorzTextAlign("center");
-    obj.label25:setFontSize(30);
-    lfm_setPropAsString(obj.label25, "fontStyle",  "bold");
-    obj.label25:setHitTest(true);
-    obj.label25:setName("label25");
+    obj.label26 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label26:setParent(obj.Ne3Nave);
+    obj.label26:setField("nivelNave19");
+    obj.label26:setLeft(153.12);
+    obj.label26:setTop(203.50);
+    obj.label26:setWidth(173.62);
+    obj.label26:setHeight(47.25);
+    obj.label26:setHorzTextAlign("center");
+    obj.label26:setFontSize(30);
+    lfm_setPropAsString(obj.label26, "fontStyle",  "bold");
+    obj.label26:setHitTest(true);
+    obj.label26:setName("label26");
 
     obj.button63 = GUI.fromHandle(_obj_newObject("button"));
     obj.button63:setParent(obj.Ne3Nave);
@@ -11258,19 +11270,19 @@ local function constructNew_frmFicha()
     obj.textEditor40:setTransparent(true);
     obj.textEditor40:setName("textEditor40");
 
-    obj.label26 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label26:setParent(obj.NnpoQNave);
-    obj.label26:setField("nivelNave20");
-    obj.label26:setLeft(153.12);
-    obj.label26:setTop(203.50);
-    obj.label26:setWidth(173.62);
-    obj.label26:setHeight(47.25);
-    obj.label26:setHorzTextAlign("center");
-    obj.label26:setFontSize(30);
-    lfm_setPropAsString(obj.label26, "fontStyle",  "bold");
-    obj.label26:setText("0");
-    obj.label26:setHitTest(true);
-    obj.label26:setName("label26");
+    obj.label27 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label27:setParent(obj.NnpoQNave);
+    obj.label27:setField("nivelNave20");
+    obj.label27:setLeft(153.12);
+    obj.label27:setTop(203.50);
+    obj.label27:setWidth(173.62);
+    obj.label27:setHeight(47.25);
+    obj.label27:setHorzTextAlign("center");
+    obj.label27:setFontSize(30);
+    lfm_setPropAsString(obj.label27, "fontStyle",  "bold");
+    obj.label27:setText("0");
+    obj.label27:setHitTest(true);
+    obj.label27:setName("label27");
 
     obj.button64 = GUI.fromHandle(_obj_newObject("button"));
     obj.button64:setParent(obj.NnpoQNave);
@@ -11536,19 +11548,19 @@ local function constructNew_frmFicha()
     obj.textEditor42:setTransparent(true);
     obj.textEditor42:setName("textEditor42");
 
-    obj.label27 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label27:setParent(obj.Nah3Nave);
-    obj.label27:setField("nivelNave21");
-    obj.label27:setLeft(153.12);
-    obj.label27:setTop(203.50);
-    obj.label27:setWidth(173.62);
-    obj.label27:setHeight(47.25);
-    obj.label27:setHorzTextAlign("center");
-    obj.label27:setFontSize(30);
-    lfm_setPropAsString(obj.label27, "fontStyle",  "bold");
-    obj.label27:setText("0");
-    obj.label27:setHitTest(true);
-    obj.label27:setName("label27");
+    obj.label28 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label28:setParent(obj.Nah3Nave);
+    obj.label28:setField("nivelNave21");
+    obj.label28:setLeft(153.12);
+    obj.label28:setTop(203.50);
+    obj.label28:setWidth(173.62);
+    obj.label28:setHeight(47.25);
+    obj.label28:setHorzTextAlign("center");
+    obj.label28:setFontSize(30);
+    lfm_setPropAsString(obj.label28, "fontStyle",  "bold");
+    obj.label28:setText("0");
+    obj.label28:setHitTest(true);
+    obj.label28:setName("label28");
 
     obj.button65 = GUI.fromHandle(_obj_newObject("button"));
     obj.button65:setParent(obj.Nah3Nave);
@@ -11814,19 +11826,19 @@ local function constructNew_frmFicha()
     obj.textEditor44:setTransparent(true);
     obj.textEditor44:setName("textEditor44");
 
-    obj.label28 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label28:setParent(obj.NkLNave);
-    obj.label28:setField("nivelNave22");
-    obj.label28:setLeft(153.12);
-    obj.label28:setTop(203.50);
-    obj.label28:setWidth(173.62);
-    obj.label28:setHeight(47.25);
-    obj.label28:setHorzTextAlign("center");
-    obj.label28:setFontSize(30);
-    lfm_setPropAsString(obj.label28, "fontStyle",  "bold");
-    obj.label28:setText("0");
-    obj.label28:setHitTest(true);
-    obj.label28:setName("label28");
+    obj.label29 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label29:setParent(obj.NkLNave);
+    obj.label29:setField("nivelNave22");
+    obj.label29:setLeft(153.12);
+    obj.label29:setTop(203.50);
+    obj.label29:setWidth(173.62);
+    obj.label29:setHeight(47.25);
+    obj.label29:setHorzTextAlign("center");
+    obj.label29:setFontSize(30);
+    lfm_setPropAsString(obj.label29, "fontStyle",  "bold");
+    obj.label29:setText("0");
+    obj.label29:setHitTest(true);
+    obj.label29:setName("label29");
 
     obj.button66 = GUI.fromHandle(_obj_newObject("button"));
     obj.button66:setParent(obj.NkLNave);
@@ -12092,19 +12104,19 @@ local function constructNew_frmFicha()
     obj.textEditor46:setTransparent(true);
     obj.textEditor46:setName("textEditor46");
 
-    obj.label29 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label29:setParent(obj.NopQNave);
-    obj.label29:setField("nivelNave23");
-    obj.label29:setLeft(153.12);
-    obj.label29:setTop(203.50);
-    obj.label29:setWidth(173.62);
-    obj.label29:setHeight(47.25);
-    obj.label29:setHorzTextAlign("center");
-    obj.label29:setFontSize(30);
-    lfm_setPropAsString(obj.label29, "fontStyle",  "bold");
-    obj.label29:setText("0");
-    obj.label29:setHitTest(true);
-    obj.label29:setName("label29");
+    obj.label30 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label30:setParent(obj.NopQNave);
+    obj.label30:setField("nivelNave23");
+    obj.label30:setLeft(153.12);
+    obj.label30:setTop(203.50);
+    obj.label30:setWidth(173.62);
+    obj.label30:setHeight(47.25);
+    obj.label30:setHorzTextAlign("center");
+    obj.label30:setFontSize(30);
+    lfm_setPropAsString(obj.label30, "fontStyle",  "bold");
+    obj.label30:setText("0");
+    obj.label30:setHitTest(true);
+    obj.label30:setName("label30");
 
     obj.button67 = GUI.fromHandle(_obj_newObject("button"));
     obj.button67:setParent(obj.NopQNave);
@@ -12370,19 +12382,19 @@ local function constructNew_frmFicha()
     obj.textEditor48:setTransparent(true);
     obj.textEditor48:setName("textEditor48");
 
-    obj.label30 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label30:setParent(obj.n2NNave);
-    obj.label30:setField("nivelNave24");
-    obj.label30:setLeft(153.12);
-    obj.label30:setTop(203.50);
-    obj.label30:setWidth(173.62);
-    obj.label30:setHeight(47.25);
-    obj.label30:setHorzTextAlign("center");
-    obj.label30:setFontSize(30);
-    lfm_setPropAsString(obj.label30, "fontStyle",  "bold");
-    obj.label30:setText("0");
-    obj.label30:setHitTest(true);
-    obj.label30:setName("label30");
+    obj.label31 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label31:setParent(obj.n2NNave);
+    obj.label31:setField("nivelNave24");
+    obj.label31:setLeft(153.12);
+    obj.label31:setTop(203.50);
+    obj.label31:setWidth(173.62);
+    obj.label31:setHeight(47.25);
+    obj.label31:setHorzTextAlign("center");
+    obj.label31:setFontSize(30);
+    lfm_setPropAsString(obj.label31, "fontStyle",  "bold");
+    obj.label31:setText("0");
+    obj.label31:setHitTest(true);
+    obj.label31:setName("label31");
 
     obj.button68 = GUI.fromHandle(_obj_newObject("button"));
     obj.button68:setParent(obj.n2NNave);
@@ -12782,18 +12794,18 @@ local function constructNew_frmFicha()
     obj.textEditor50:setTransparent(true);
     obj.textEditor50:setName("textEditor50");
 
-    obj.label31 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label31:setParent(obj.OxNave);
-    obj.label31:setField("nivelNave25");
-    obj.label31:setLeft(153.12);
-    obj.label31:setTop(203.50);
-    obj.label31:setWidth(173.62);
-    obj.label31:setHeight(47.25);
-    obj.label31:setHorzTextAlign("center");
-    obj.label31:setFontSize(30);
-    lfm_setPropAsString(obj.label31, "fontStyle",  "bold");
-    obj.label31:setHitTest(true);
-    obj.label31:setName("label31");
+    obj.label32 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label32:setParent(obj.OxNave);
+    obj.label32:setField("nivelNave25");
+    obj.label32:setLeft(153.12);
+    obj.label32:setTop(203.50);
+    obj.label32:setWidth(173.62);
+    obj.label32:setHeight(47.25);
+    obj.label32:setHorzTextAlign("center");
+    obj.label32:setFontSize(30);
+    lfm_setPropAsString(obj.label32, "fontStyle",  "bold");
+    obj.label32:setHitTest(true);
+    obj.label32:setName("label32");
 
     obj.button69 = GUI.fromHandle(_obj_newObject("button"));
     obj.button69:setParent(obj.OxNave);
@@ -13059,18 +13071,18 @@ local function constructNew_frmFicha()
     obj.textEditor52:setTransparent(true);
     obj.textEditor52:setName("textEditor52");
 
-    obj.label32 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label32:setParent(obj.Oh23Nave);
-    obj.label32:setField("nivelNave26");
-    obj.label32:setLeft(153.12);
-    obj.label32:setTop(203.50);
-    obj.label32:setWidth(173.62);
-    obj.label32:setHeight(47.25);
-    obj.label32:setHorzTextAlign("center");
-    obj.label32:setFontSize(30);
-    lfm_setPropAsString(obj.label32, "fontStyle",  "bold");
-    obj.label32:setHitTest(true);
-    obj.label32:setName("label32");
+    obj.label33 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label33:setParent(obj.Oh23Nave);
+    obj.label33:setField("nivelNave26");
+    obj.label33:setLeft(153.12);
+    obj.label33:setTop(203.50);
+    obj.label33:setWidth(173.62);
+    obj.label33:setHeight(47.25);
+    obj.label33:setHorzTextAlign("center");
+    obj.label33:setFontSize(30);
+    lfm_setPropAsString(obj.label33, "fontStyle",  "bold");
+    obj.label33:setHitTest(true);
+    obj.label33:setName("label33");
 
     obj.button70 = GUI.fromHandle(_obj_newObject("button"));
     obj.button70:setParent(obj.Oh23Nave);
@@ -13336,18 +13348,18 @@ local function constructNew_frmFicha()
     obj.textEditor54:setTransparent(true);
     obj.textEditor54:setName("textEditor54");
 
-    obj.label33 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label33:setParent(obj.Ox2Nave);
-    obj.label33:setField("nivelNave27");
-    obj.label33:setLeft(153.12);
-    obj.label33:setTop(203.50);
-    obj.label33:setWidth(173.62);
-    obj.label33:setHeight(47.25);
-    obj.label33:setHorzTextAlign("center");
-    obj.label33:setFontSize(30);
-    lfm_setPropAsString(obj.label33, "fontStyle",  "bold");
-    obj.label33:setHitTest(true);
-    obj.label33:setName("label33");
+    obj.label34 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label34:setParent(obj.Ox2Nave);
+    obj.label34:setField("nivelNave27");
+    obj.label34:setLeft(153.12);
+    obj.label34:setTop(203.50);
+    obj.label34:setWidth(173.62);
+    obj.label34:setHeight(47.25);
+    obj.label34:setHorzTextAlign("center");
+    obj.label34:setFontSize(30);
+    lfm_setPropAsString(obj.label34, "fontStyle",  "bold");
+    obj.label34:setHitTest(true);
+    obj.label34:setName("label34");
 
     obj.button71 = GUI.fromHandle(_obj_newObject("button"));
     obj.button71:setParent(obj.Ox2Nave);
@@ -13613,19 +13625,19 @@ local function constructNew_frmFicha()
     obj.textEditor56:setTransparent(true);
     obj.textEditor56:setName("textEditor56");
 
-    obj.label34 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label34:setParent(obj.OlPNave);
-    obj.label34:setField("nivelNave28");
-    obj.label34:setLeft(153.12);
-    obj.label34:setTop(203.50);
-    obj.label34:setWidth(173.62);
-    obj.label34:setHeight(47.25);
-    obj.label34:setHorzTextAlign("center");
-    obj.label34:setFontSize(30);
-    lfm_setPropAsString(obj.label34, "fontStyle",  "bold");
-    obj.label34:setText("0");
-    obj.label34:setHitTest(true);
-    obj.label34:setName("label34");
+    obj.label35 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label35:setParent(obj.OlPNave);
+    obj.label35:setField("nivelNave28");
+    obj.label35:setLeft(153.12);
+    obj.label35:setTop(203.50);
+    obj.label35:setWidth(173.62);
+    obj.label35:setHeight(47.25);
+    obj.label35:setHorzTextAlign("center");
+    obj.label35:setFontSize(30);
+    lfm_setPropAsString(obj.label35, "fontStyle",  "bold");
+    obj.label35:setText("0");
+    obj.label35:setHitTest(true);
+    obj.label35:setName("label35");
 
     obj.button72 = GUI.fromHandle(_obj_newObject("button"));
     obj.button72:setParent(obj.OlPNave);
@@ -13891,19 +13903,19 @@ local function constructNew_frmFicha()
     obj.textEditor58:setTransparent(true);
     obj.textEditor58:setName("textEditor58");
 
-    obj.label35 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label35:setParent(obj.OazNave);
-    obj.label35:setField("nivelNave29");
-    obj.label35:setLeft(153.12);
-    obj.label35:setTop(203.50);
-    obj.label35:setWidth(173.62);
-    obj.label35:setHeight(47.25);
-    obj.label35:setHorzTextAlign("center");
-    obj.label35:setFontSize(30);
-    lfm_setPropAsString(obj.label35, "fontStyle",  "bold");
-    obj.label35:setText("0");
-    obj.label35:setHitTest(true);
-    obj.label35:setName("label35");
+    obj.label36 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label36:setParent(obj.OazNave);
+    obj.label36:setField("nivelNave29");
+    obj.label36:setLeft(153.12);
+    obj.label36:setTop(203.50);
+    obj.label36:setWidth(173.62);
+    obj.label36:setHeight(47.25);
+    obj.label36:setHorzTextAlign("center");
+    obj.label36:setFontSize(30);
+    lfm_setPropAsString(obj.label36, "fontStyle",  "bold");
+    obj.label36:setText("0");
+    obj.label36:setHitTest(true);
+    obj.label36:setName("label36");
 
     obj.button73 = GUI.fromHandle(_obj_newObject("button"));
     obj.button73:setParent(obj.OazNave);
@@ -14169,19 +14181,19 @@ local function constructNew_frmFicha()
     obj.textEditor60:setTransparent(true);
     obj.textEditor60:setName("textEditor60");
 
-    obj.label36 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label36:setParent(obj.OjHNave);
-    obj.label36:setField("nivelNave30");
-    obj.label36:setLeft(153.12);
-    obj.label36:setTop(203.50);
-    obj.label36:setWidth(173.62);
-    obj.label36:setHeight(47.25);
-    obj.label36:setHorzTextAlign("center");
-    obj.label36:setFontSize(30);
-    lfm_setPropAsString(obj.label36, "fontStyle",  "bold");
-    obj.label36:setText("0");
-    obj.label36:setHitTest(true);
-    obj.label36:setName("label36");
+    obj.label37 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label37:setParent(obj.OjHNave);
+    obj.label37:setField("nivelNave30");
+    obj.label37:setLeft(153.12);
+    obj.label37:setTop(203.50);
+    obj.label37:setWidth(173.62);
+    obj.label37:setHeight(47.25);
+    obj.label37:setHorzTextAlign("center");
+    obj.label37:setFontSize(30);
+    lfm_setPropAsString(obj.label37, "fontStyle",  "bold");
+    obj.label37:setText("0");
+    obj.label37:setHitTest(true);
+    obj.label37:setName("label37");
 
     obj.button74 = GUI.fromHandle(_obj_newObject("button"));
     obj.button74:setParent(obj.OjHNave);
@@ -14447,19 +14459,19 @@ local function constructNew_frmFicha()
     obj.textEditor62:setTransparent(true);
     obj.textEditor62:setName("textEditor62");
 
-    obj.label37 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label37:setParent(obj.OSdNave);
-    obj.label37:setField("nivelNave31");
-    obj.label37:setLeft(153.12);
-    obj.label37:setTop(203.50);
-    obj.label37:setWidth(173.62);
-    obj.label37:setHeight(47.25);
-    obj.label37:setHorzTextAlign("center");
-    obj.label37:setFontSize(30);
-    lfm_setPropAsString(obj.label37, "fontStyle",  "bold");
-    obj.label37:setText("0");
-    obj.label37:setHitTest(true);
-    obj.label37:setName("label37");
+    obj.label38 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label38:setParent(obj.OSdNave);
+    obj.label38:setField("nivelNave31");
+    obj.label38:setLeft(153.12);
+    obj.label38:setTop(203.50);
+    obj.label38:setWidth(173.62);
+    obj.label38:setHeight(47.25);
+    obj.label38:setHorzTextAlign("center");
+    obj.label38:setFontSize(30);
+    lfm_setPropAsString(obj.label38, "fontStyle",  "bold");
+    obj.label38:setText("0");
+    obj.label38:setHitTest(true);
+    obj.label38:setName("label38");
 
     obj.button75 = GUI.fromHandle(_obj_newObject("button"));
     obj.button75:setParent(obj.OSdNave);
@@ -14725,19 +14737,19 @@ local function constructNew_frmFicha()
     obj.textEditor64:setTransparent(true);
     obj.textEditor64:setName("textEditor64");
 
-    obj.label38 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label38:setParent(obj.OqwNave);
-    obj.label38:setField("nivelNave32");
-    obj.label38:setLeft(153.12);
-    obj.label38:setTop(203.50);
-    obj.label38:setWidth(173.62);
-    obj.label38:setHeight(47.25);
-    obj.label38:setHorzTextAlign("center");
-    obj.label38:setFontSize(30);
-    lfm_setPropAsString(obj.label38, "fontStyle",  "bold");
-    obj.label38:setText("0");
-    obj.label38:setHitTest(true);
-    obj.label38:setName("label38");
+    obj.label39 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label39:setParent(obj.OqwNave);
+    obj.label39:setField("nivelNave32");
+    obj.label39:setLeft(153.12);
+    obj.label39:setTop(203.50);
+    obj.label39:setWidth(173.62);
+    obj.label39:setHeight(47.25);
+    obj.label39:setHorzTextAlign("center");
+    obj.label39:setFontSize(30);
+    lfm_setPropAsString(obj.label39, "fontStyle",  "bold");
+    obj.label39:setText("0");
+    obj.label39:setHitTest(true);
+    obj.label39:setName("label39");
 
     obj.button76 = GUI.fromHandle(_obj_newObject("button"));
     obj.button76:setParent(obj.OqwNave);
@@ -15025,36 +15037,36 @@ local function constructNew_frmFicha()
     obj.Msg7:setHeight(39);
     obj.Msg7:setName("Msg7");
 
-    obj.label39 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label39:setParent(obj.rectangle3);
-    obj.label39:setTop(120);
-    obj.label39:setLeft(1265);
-    obj.label39:setText("0");
-    obj.label39:setFontSize(20);
-    obj.label39:setField("Pontos");
-    obj.label39:setHitTest(true);
-    obj.label39:setWidth(257);
-    obj.label39:setHeight(28);
-    obj.label39:setFontFamily("Tahoma");
-    obj.label39:setFontColor("white");
-    lfm_setPropAsString(obj.label39, "fontStyle",  "bold");
-    obj.label39:setName("label39");
-
     obj.label40 = GUI.fromHandle(_obj_newObject("label"));
     obj.label40:setParent(obj.rectangle3);
-    obj.label40:setTop(181);
-    obj.label40:setLeft(1406);
+    obj.label40:setTop(120);
+    obj.label40:setLeft(1265);
     obj.label40:setText("0");
-    obj.label40:setFontSize(25);
-    obj.label40:setField("Nivel");
+    obj.label40:setFontSize(20);
+    obj.label40:setField("Pontos");
     obj.label40:setHitTest(true);
-    obj.label40:setWidth(57);
-    obj.label40:setHeight(51);
-    obj.label40:setFontFamily("Dotum");
-    obj.label40:setFontColor("black");
+    obj.label40:setWidth(257);
+    obj.label40:setHeight(28);
+    obj.label40:setFontFamily("Tahoma");
+    obj.label40:setFontColor("white");
     lfm_setPropAsString(obj.label40, "fontStyle",  "bold");
-    obj.label40:setHorzTextAlign("center");
     obj.label40:setName("label40");
+
+    obj.label41 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label41:setParent(obj.rectangle3);
+    obj.label41:setTop(181);
+    obj.label41:setLeft(1406);
+    obj.label41:setText("0");
+    obj.label41:setFontSize(25);
+    obj.label41:setField("Nivel");
+    obj.label41:setHitTest(true);
+    obj.label41:setWidth(57);
+    obj.label41:setHeight(51);
+    obj.label41:setFontFamily("Dotum");
+    obj.label41:setFontColor("black");
+    lfm_setPropAsString(obj.label41, "fontStyle",  "bold");
+    obj.label41:setHorzTextAlign("center");
+    obj.label41:setName("label41");
 
     obj.button77 = GUI.fromHandle(_obj_newObject("button"));
     obj.button77:setParent(obj.rectangle3);
@@ -15224,21 +15236,21 @@ local function constructNew_frmFicha()
     obj.button79:setLeft(131);
     obj.button79:setName("button79");
 
-    obj.label41 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label41:setParent(obj.rectangle3);
-    obj.label41:setField("Ppeesquerdo");
-    obj.label41:setFontSize(38);
-    obj.label41:setFontFamily("Algerian");
-    obj.label41:setHorzTextAlign("center");
-    obj.label41:setWidth(166);
-    obj.label41:setHeight(75);
-    obj.label41:setTop(515);
-    obj.label41:setLeft(9);
-    lfm_setPropAsString(obj.label41, "fontStyle",  "bold");
-    obj.label41:setName("label41");
+    obj.label42 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label42:setParent(obj.rectangle3);
+    obj.label42:setField("Ppeesquerdo");
+    obj.label42:setFontSize(38);
+    obj.label42:setFontFamily("Algerian");
+    obj.label42:setHorzTextAlign("center");
+    obj.label42:setWidth(166);
+    obj.label42:setHeight(75);
+    obj.label42:setTop(515);
+    obj.label42:setLeft(9);
+    lfm_setPropAsString(obj.label42, "fontStyle",  "bold");
+    obj.label42:setName("label42");
 
     obj.edit100 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit100:setParent(obj.label41);
+    obj.edit100:setParent(obj.label42);
     obj.edit100:setWidth(167);
     obj.edit100:setHeight(24);
     obj.edit100:setFontSize(15);
@@ -15269,21 +15281,21 @@ local function constructNew_frmFicha()
     obj.button81:setLeft(325);
     obj.button81:setName("button81");
 
-    obj.label42 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label42:setParent(obj.rectangle3);
-    obj.label42:setField("Ppedireito");
-    obj.label42:setFontSize(38);
-    obj.label42:setFontFamily("Algerian");
-    obj.label42:setHorzTextAlign("center");
-    obj.label42:setWidth(166);
-    obj.label42:setHeight(75);
-    obj.label42:setTop(515);
-    obj.label42:setLeft(184);
-    lfm_setPropAsString(obj.label42, "fontStyle",  "bold");
-    obj.label42:setName("label42");
+    obj.label43 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label43:setParent(obj.rectangle3);
+    obj.label43:setField("Ppedireito");
+    obj.label43:setFontSize(38);
+    obj.label43:setFontFamily("Algerian");
+    obj.label43:setHorzTextAlign("center");
+    obj.label43:setWidth(166);
+    obj.label43:setHeight(75);
+    obj.label43:setTop(515);
+    obj.label43:setLeft(184);
+    lfm_setPropAsString(obj.label43, "fontStyle",  "bold");
+    obj.label43:setName("label43");
 
     obj.edit101 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit101:setParent(obj.label42);
+    obj.edit101:setParent(obj.label43);
     obj.edit101:setTransparent(true);
     obj.edit101:setWidth(167);
     obj.edit101:setHeight(24);
@@ -15313,18 +15325,18 @@ local function constructNew_frmFicha()
     obj.button83:setLeft(608);
     obj.button83:setName("button83");
 
-    obj.label43 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label43:setParent(obj.rectangle3);
-    obj.label43:setField("Costas");
-    obj.label43:setFontSize(38);
-    obj.label43:setFontFamily("Algerian");
-    obj.label43:setHorzTextAlign("center");
-    obj.label43:setWidth(166);
-    obj.label43:setHeight(75);
-    obj.label43:setTop(13);
-    obj.label43:setLeft(559);
-    lfm_setPropAsString(obj.label43, "fontStyle",  "bold");
-    obj.label43:setName("label43");
+    obj.label44 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label44:setParent(obj.rectangle3);
+    obj.label44:setField("Costas");
+    obj.label44:setFontSize(38);
+    obj.label44:setFontFamily("Algerian");
+    obj.label44:setHorzTextAlign("center");
+    obj.label44:setWidth(166);
+    obj.label44:setHeight(75);
+    obj.label44:setTop(13);
+    obj.label44:setLeft(559);
+    lfm_setPropAsString(obj.label44, "fontStyle",  "bold");
+    obj.label44:setName("label44");
 
     obj.edit102 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit102:setParent(obj.rectangle3);
@@ -15359,18 +15371,18 @@ local function constructNew_frmFicha()
     obj.button85:setLeft(608);
     obj.button85:setName("button85");
 
-    obj.label44 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label44:setParent(obj.rectangle3);
-    obj.label44:setField("Mmaoesquerda");
-    obj.label44:setFontSize(38);
-    obj.label44:setFontFamily("Algerian");
-    obj.label44:setHorzTextAlign("center");
-    obj.label44:setWidth(166);
-    obj.label44:setHeight(75);
-    obj.label44:setTop(134);
-    obj.label44:setLeft(559);
-    lfm_setPropAsString(obj.label44, "fontStyle",  "bold");
-    obj.label44:setName("label44");
+    obj.label45 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label45:setParent(obj.rectangle3);
+    obj.label45:setField("Mmaoesquerda");
+    obj.label45:setFontSize(38);
+    obj.label45:setFontFamily("Algerian");
+    obj.label45:setHorzTextAlign("center");
+    obj.label45:setWidth(166);
+    obj.label45:setHeight(75);
+    obj.label45:setTop(134);
+    obj.label45:setLeft(559);
+    lfm_setPropAsString(obj.label45, "fontStyle",  "bold");
+    obj.label45:setName("label45");
 
     obj.edit103 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit103:setParent(obj.rectangle3);
@@ -15405,18 +15417,18 @@ local function constructNew_frmFicha()
     obj.button87:setLeft(608);
     obj.button87:setName("button87");
 
-    obj.label45 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label45:setParent(obj.rectangle3);
-    obj.label45:setField("Mmaodireita");
-    obj.label45:setFontSize(38);
-    obj.label45:setFontFamily("Algerian");
-    obj.label45:setHorzTextAlign("center");
-    obj.label45:setWidth(166);
-    obj.label45:setHeight(75);
-    obj.label45:setTop(252);
-    obj.label45:setLeft(559);
-    lfm_setPropAsString(obj.label45, "fontStyle",  "bold");
-    obj.label45:setName("label45");
+    obj.label46 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label46:setParent(obj.rectangle3);
+    obj.label46:setField("Mmaodireita");
+    obj.label46:setFontSize(38);
+    obj.label46:setFontFamily("Algerian");
+    obj.label46:setHorzTextAlign("center");
+    obj.label46:setWidth(166);
+    obj.label46:setHeight(75);
+    obj.label46:setTop(252);
+    obj.label46:setLeft(559);
+    lfm_setPropAsString(obj.label46, "fontStyle",  "bold");
+    obj.label46:setName("label46");
 
     obj.edit104 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit104:setParent(obj.rectangle3);
@@ -15451,21 +15463,21 @@ local function constructNew_frmFicha()
     obj.button89:setLeft(1033);
     obj.button89:setName("button89");
 
-    obj.label46 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label46:setParent(obj.rectangle3);
-    obj.label46:setField("Cabeca");
-    obj.label46:setFontSize(38);
-    obj.label46:setFontFamily("Algerian");
-    obj.label46:setHorzTextAlign("center");
-    obj.label46:setWidth(166);
-    obj.label46:setHeight(75);
-    obj.label46:setTop(401);
-    obj.label46:setLeft(923);
-    lfm_setPropAsString(obj.label46, "fontStyle",  "bold");
-    obj.label46:setName("label46");
+    obj.label47 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label47:setParent(obj.rectangle3);
+    obj.label47:setField("Cabeca");
+    obj.label47:setFontSize(38);
+    obj.label47:setFontFamily("Algerian");
+    obj.label47:setHorzTextAlign("center");
+    obj.label47:setWidth(166);
+    obj.label47:setHeight(75);
+    obj.label47:setTop(401);
+    obj.label47:setLeft(923);
+    lfm_setPropAsString(obj.label47, "fontStyle",  "bold");
+    obj.label47:setName("label47");
 
     obj.edit105 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit105:setParent(obj.label46);
+    obj.edit105:setParent(obj.label47);
     obj.edit105:setTransparent(true);
     obj.edit105:setWidth(167);
     obj.edit105:setHeight(24);
@@ -15495,21 +15507,21 @@ local function constructNew_frmFicha()
     obj.button91:setLeft(1033);
     obj.button91:setName("button91");
 
-    obj.label47 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label47:setParent(obj.rectangle3);
-    obj.label47:setField("Olho");
-    obj.label47:setFontSize(38);
-    obj.label47:setFontFamily("Algerian");
-    obj.label47:setHorzTextAlign("center");
-    obj.label47:setWidth(166);
-    obj.label47:setHeight(75);
-    obj.label47:setTop(622);
-    obj.label47:setLeft(923);
-    lfm_setPropAsString(obj.label47, "fontStyle",  "bold");
-    obj.label47:setName("label47");
+    obj.label48 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label48:setParent(obj.rectangle3);
+    obj.label48:setField("Olho");
+    obj.label48:setFontSize(38);
+    obj.label48:setFontFamily("Algerian");
+    obj.label48:setHorzTextAlign("center");
+    obj.label48:setWidth(166);
+    obj.label48:setHeight(75);
+    obj.label48:setTop(622);
+    obj.label48:setLeft(923);
+    lfm_setPropAsString(obj.label48, "fontStyle",  "bold");
+    obj.label48:setName("label48");
 
     obj.edit106 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit106:setParent(obj.label47);
+    obj.edit106:setParent(obj.label48);
     obj.edit106:setTransparent(true);
     obj.edit106:setWidth(167);
     obj.edit106:setHeight(24);
@@ -15666,12 +15678,12 @@ local function constructNew_frmFicha()
     obj.popMeuPopup:setTop(0);
     obj.popMeuPopup:setLeft(0);
 
-    obj.label48 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label48:setParent(obj.popMeuPopup);
-    obj.label48:setAlign("client");
-    obj.label48:setHorzTextAlign("center");
-    obj.label48:setText("Aqui fica a informção das coisas.");
-    obj.label48:setName("label48");
+    obj.label49 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label49:setParent(obj.popMeuPopup);
+    obj.label49:setAlign("client");
+    obj.label49:setHorzTextAlign("center");
+    obj.label49:setText("Aqui fica a informção das coisas.");
+    obj.label49:setName("label49");
 
     obj.tab5 = GUI.fromHandle(_obj_newObject("tab"));
     obj.tab5:setParent(obj.tabControl1);
@@ -22586,18 +22598,18 @@ local function constructNew_frmFicha()
     obj.PoderesEHabilidadesAntigo:setAlign("client");
     obj.PoderesEHabilidadesAntigo:setVisible(false);
 
-    obj.label49 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label49:setParent(obj.PoderesEHabilidadesAntigo);
-    obj.label49:setText("Seja bem vindo a area que você irá descobrir seus poderes.");
-    obj.label49:setTop(0);
-    obj.label49:setLeft(505);
-    obj.label49:setAutoSize(false);
-    obj.label49:setWordWrap(true);
-    obj.label49:setWidth(999);
-    obj.label49:setHeight(100);
-    lfm_setPropAsString(obj.label49, "fontStyle",  "bold");
-    obj.label49:setFontSize(18);
-    obj.label49:setName("label49");
+    obj.label50 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label50:setParent(obj.PoderesEHabilidadesAntigo);
+    obj.label50:setText("Seja bem vindo a area que você irá descobrir seus poderes.");
+    obj.label50:setTop(0);
+    obj.label50:setLeft(505);
+    obj.label50:setAutoSize(false);
+    obj.label50:setWordWrap(true);
+    obj.label50:setWidth(999);
+    obj.label50:setHeight(100);
+    lfm_setPropAsString(obj.label50, "fontStyle",  "bold");
+    obj.label50:setFontSize(18);
+    obj.label50:setName("label50");
 
     obj.rolarPoder = GUI.fromHandle(_obj_newObject("button"));
     obj.rolarPoder:setParent(obj.PoderesEHabilidadesAntigo);
@@ -22774,12 +22786,12 @@ local function constructNew_frmFicha()
     obj.layout44:setMargins({bottom=4});
     obj.layout44:setName("layout44");
 
-    obj.label50 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label50:setParent(obj.layout44);
-    obj.label50:setAlign("left");
-    obj.label50:setText("Titulo do Item:");
-    obj.label50:setAutoSize(true);
-    obj.label50:setName("label50");
+    obj.label51 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label51:setParent(obj.layout44);
+    obj.label51:setAlign("left");
+    obj.label51:setText("Titulo do Item:");
+    obj.label51:setAutoSize(true);
+    obj.label51:setName("label51");
 
     obj.edit139 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit139:setParent(obj.layout44);
@@ -26014,7 +26026,7 @@ local function constructNew_frmFicha()
             		end;
         end, obj);
 
-    obj._e_event260 = obj.label15:addEventListener("onClick",
+    obj._e_event260 = obj.label16:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -26069,7 +26081,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event265 = obj.label16:addEventListener("onClick",
+    obj._e_event265 = obj.label17:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -26126,7 +26138,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event270 = obj.label17:addEventListener("onClick",
+    obj._e_event270 = obj.label18:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -26181,7 +26193,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event275 = obj.label18:addEventListener("onClick",
+    obj._e_event275 = obj.label19:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -26236,7 +26248,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event280 = obj.label19:addEventListener("onClick",
+    obj._e_event280 = obj.label20:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -26291,7 +26303,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event285 = obj.label20:addEventListener("onClick",
+    obj._e_event285 = obj.label21:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -26346,7 +26358,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event290 = obj.label21:addEventListener("onClick",
+    obj._e_event290 = obj.label22:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -26401,7 +26413,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event295 = obj.label22:addEventListener("onClick",
+    obj._e_event295 = obj.label23:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -26928,7 +26940,7 @@ local function constructNew_frmFicha()
             		end;
         end, obj);
 
-    obj._e_event316 = obj.label23:addEventListener("onClick",
+    obj._e_event316 = obj.label24:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -26983,7 +26995,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event321 = obj.label24:addEventListener("onClick",
+    obj._e_event321 = obj.label25:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -27040,7 +27052,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event326 = obj.label25:addEventListener("onClick",
+    obj._e_event326 = obj.label26:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -27095,7 +27107,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event331 = obj.label26:addEventListener("onClick",
+    obj._e_event331 = obj.label27:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -27150,7 +27162,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event336 = obj.label27:addEventListener("onClick",
+    obj._e_event336 = obj.label28:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -27205,7 +27217,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event341 = obj.label28:addEventListener("onClick",
+    obj._e_event341 = obj.label29:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -27260,7 +27272,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event346 = obj.label29:addEventListener("onClick",
+    obj._e_event346 = obj.label30:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -27315,7 +27327,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event351 = obj.label30:addEventListener("onClick",
+    obj._e_event351 = obj.label31:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -27842,7 +27854,7 @@ local function constructNew_frmFicha()
             		end;
         end, obj);
 
-    obj._e_event372 = obj.label31:addEventListener("onClick",
+    obj._e_event372 = obj.label32:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -27897,7 +27909,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event377 = obj.label32:addEventListener("onClick",
+    obj._e_event377 = obj.label33:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -27954,7 +27966,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event382 = obj.label33:addEventListener("onClick",
+    obj._e_event382 = obj.label34:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -28009,7 +28021,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event387 = obj.label34:addEventListener("onClick",
+    obj._e_event387 = obj.label35:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -28064,7 +28076,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event392 = obj.label35:addEventListener("onClick",
+    obj._e_event392 = obj.label36:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -28119,7 +28131,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event397 = obj.label36:addEventListener("onClick",
+    obj._e_event397 = obj.label37:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -28174,7 +28186,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event402 = obj.label37:addEventListener("onClick",
+    obj._e_event402 = obj.label38:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -28229,7 +28241,7 @@ local function constructNew_frmFicha()
             					end;
         end, obj);
 
-    obj._e_event407 = obj.label38:addEventListener("onClick",
+    obj._e_event407 = obj.label39:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Nivel da Nave", "Quantidade de Pontos:", "",
@@ -28826,7 +28838,7 @@ local function constructNew_frmFicha()
             self.Msg7.src = "/Imagens/aquinaotemnada.png"
         end, obj);
 
-    obj._e_event442 = obj.label39:addEventListener("onClick",
+    obj._e_event442 = obj.label40:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Caixa de Poções", "Quantidade de Pontos de Atributo:", "",
@@ -28836,7 +28848,7 @@ local function constructNew_frmFicha()
             		end;
         end, obj);
 
-    obj._e_event443 = obj.label40:addEventListener("onClick",
+    obj._e_event443 = obj.label41:addEventListener("onClick",
         function (_)
             if rrpg.getMesaDe(sheet).meuJogador.isMestre then
             		dialogs.inputQuery("Caixa de Poções", "Quantidade de Nivel:", "",
@@ -32027,6 +32039,7 @@ local function constructNew_frmFicha()
         if self.edit99 ~= nil then self.edit99:destroy(); self.edit99 = nil; end;
         if self.NivelPoder5 ~= nil then self.NivelPoder5:destroy(); self.NivelPoder5 = nil; end;
         if self.NivelPoder75 ~= nil then self.NivelPoder75:destroy(); self.NivelPoder75 = nil; end;
+        if self.label51 ~= nil then self.label51:destroy(); self.label51 = nil; end;
         if self.checkBox53 ~= nil then self.checkBox53:destroy(); self.checkBox53 = nil; end;
         if self.checkBox146 ~= nil then self.checkBox146:destroy(); self.checkBox146 = nil; end;
         if self.Ne38 ~= nil then self.Ne38:destroy(); self.Ne38 = nil; end;
